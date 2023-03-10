@@ -127,7 +127,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -1522,3 +1522,4 @@ Children:
       ModellingRule: Optional
       Value: 100.0
 - File: Pagine/Pagine.yaml
+- File: Tipi/Tipi.yaml
