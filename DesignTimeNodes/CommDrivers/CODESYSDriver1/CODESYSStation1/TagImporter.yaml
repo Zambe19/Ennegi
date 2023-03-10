@@ -1,0 +1,23 @@
+Name: TagImporter
+Type: CODESYSTagImporter
+OwnerId: ns=2;g=cc88f5067df9b940314d535871620071
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchProviderModes
+  Value: 0
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/robzam/Downloads/ennegi/r8_double_top_air_ethercat_odot/NG_PA_r10_dta_ethercat_odot_CT2228.Device.Application.xml"

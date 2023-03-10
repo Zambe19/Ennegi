@@ -1,0 +1,1005 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Application
+  Type: TagStructure
+  Children:
+  - Name: GLOBALS
+    Type: TagStructure
+    Children:
+    - Name: alarm_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.alarm_1"
+    - Name: alarm_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.alarm_2"
+    - Name: belt_start
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.belt_start"
+    - Name: belt_stop
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.belt_stop"
+    - Name: bottom_air
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.bottom_air"
+    - Name: bottom_air_temp
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.bottom_air_temp"
+    - Name: conveyor
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.conveyor"
+    - Name: counter_1
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.counter_1"
+    - Name: counter_2
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.counter_2"
+    - Name: counter_in
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.counter_in"
+    - Name: counter_top_air_in
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.counter_top_air_in"
+    - Name: DeleteFile
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.DeleteFile"
+    - Name: emergency
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.emergency"
+    - Name: emergency_HMI
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.emergency_HMI"
+    - Name: emergency_light
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.emergency_light"
+    - Name: EnableReadFile
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.EnableReadFile"
+    - Name: feed_printer_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.feed_printer_1"
+    - Name: feed_printer_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.feed_printer_2"
+    - Name: File_name
+      Type: CODESYSTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.File_name"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: File_path
+      Type: CODESYSTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.File_path"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: hold_pacing_sys_temp
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.hold_pacing_sys_temp"
+    - Name: in_top_air
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.in_top_air"
+    - Name: mask_enable_signal_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.mask_enable_signal_1"
+    - Name: mask_enable_signal_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.mask_enable_signal_2"
+    - Name: mask_enable_signal_in
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.mask_enable_signal_in"
+    - Name: mask_enable_top_air_in
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.mask_enable_top_air_in"
+    - Name: Nprint_1
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.Nprint_1"
+    - Name: Nprint_2
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.Nprint_2"
+    - Name: pacing_sys
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.pacing_sys"
+    - Name: print1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.print1"
+    - Name: print2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.print2"
+    - Name: print_manual_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.print_manual_1"
+    - Name: print_manual_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.print_manual_2"
+    - Name: print_temp_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.print_temp_1"
+    - Name: print_temp_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.print_temp_2"
+    - Name: Printer1_StatusConnection
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.Printer1_StatusConnection"
+    - Name: Printer2_StatusConnection
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.Printer2_StatusConnection"
+    - Name: RestartConnection1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.RestartConnection1"
+    - Name: RestartConnection2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.RestartConnection2"
+    - Name: reverse_emergency
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.reverse_emergency"
+    - Name: ribbon_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.ribbon_1"
+    - Name: ribbon_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.ribbon_2"
+    - Name: SendFile
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.SendFile"
+    - Name: SendFilePrint1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.SendFilePrint1"
+    - Name: SendFilePrint2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.SendFilePrint2"
+    - Name: sFileToDel
+      Type: CODESYSTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.sFileToDel"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: sFileToSend
+      Type: CODESYSTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.sFileToSend"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: signal_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.signal_1"
+    - Name: signal_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.signal_2"
+    - Name: signal_in
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.signal_in"
+    - Name: speed_printer_1
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.speed_printer_1"
+    - Name: speed_printer_2
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.speed_printer_2"
+    - Name: start_ton_mask_signal_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.start_ton_mask_signal_1"
+    - Name: start_ton_mask_signal_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.start_ton_mask_signal_2"
+    - Name: start_ton_mask_signal_in
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.start_ton_mask_signal_in"
+    - Name: start_ton_mask_signal_top_air_in
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.start_ton_mask_signal_top_air_in"
+    - Name: start_ton_signal_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.start_ton_signal_1"
+    - Name: start_ton_signal_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.start_ton_signal_2"
+    - Name: start_ton_signal_in
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.start_ton_signal_in"
+    - Name: start_ton_top_air_in
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.start_ton_top_air_in"
+    - Name: StatusBar
+      Type: CODESYSTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.StatusBar"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: TargetNprint_1
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.TargetNprint_1"
+    - Name: TargetNPrint_2
+      Type: CODESYSTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.TargetNPrint_2"
+    - Name: top_air
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.top_air"
+    - Name: top_air2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.top_air2"
+    - Name: top_air_temp
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.top_air_temp"
+    - Name: vel_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.GLOBALS.vel_1"
+  - Name: PersistentVars
+    Type: TagStructure
+    Children:
+    - Name: dt_delay_bottom_air
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_delay_bottom_air"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_delay_pacing_sys
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_delay_pacing_sys"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_delay_print1
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_delay_print1"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_delay_print2
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_delay_print2"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_delay_top_air
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_delay_top_air"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_delay_top_air2
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_delay_top_air2"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_hold_bottom_air
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_hold_bottom_air"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_hold_pacing_sys
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_hold_pacing_sys"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_hold_print1
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_hold_print1"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_hold_print2
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_hold_print2"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_hold_top_air
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_hold_top_air"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_hold_top_air2
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_hold_top_air2"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_mask_signal_1
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_mask_signal_1"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_mask_signal_2
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_mask_signal_2"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_mask_signal_bottom_air
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_mask_signal_bottom_air"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_mask_signal_in
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_mask_signal_in"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: dt_mask_top_air
+      Type: CODESYSTag
+      DataType: Duration
+      Value: "0:00:00:0.0000000"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.dt_mask_top_air"
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: IPaddress_1
+      Type: CODESYSTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.IPaddress_1"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: IPaddress_2
+      Type: CODESYSTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.IPaddress_2"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: pathfile
+      Type: CODESYSTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.pathfile"
+      - Name: MaximumLength
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 80
+      - Name: Encoding
+        Type: BaseDataVariableType
+        DataType: Encoding
+        Value: 0
+    - Name: Porta
+      Type: CODESYSTag
+      DataType: UInt16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.PersistentVars.Porta"
+  - Name: ReadFile
+    Type: TagStructure
+    Children:
+    - Name: READFILE_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.ReadFile.READFILE_1"
+    - Name: READFILE_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.ReadFile.READFILE_2"
+  - Name: TCPclient
+    Type: TagStructure
+    Children:
+    - Name: enableTcpClient_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.TCPclient.enableTcpClient_1"
+    - Name: enableTcpClient_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.TCPclient.enableTcpClient_2"
+    - Name: enableTcpWrite_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.TCPclient.enableTcpWrite_1"
+    - Name: enableTcpWrite_2
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.TCPclient.enableTcpWrite_2"
+    - Name: restartTcpClient_1
+      Type: CODESYSTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Application.TCPclient.restartTcpClient_1"
